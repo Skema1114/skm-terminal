@@ -23,6 +23,8 @@
             "colorScheme": "DraculaAlterado"
         },
         "list": [
+            // guid novo para usar
+            //"guid": "{d8e3e1b3-a3e5-4acd-8b4d-5367066842da}",
             {
                 // Make changes here to the powershell.exe profile.
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -40,7 +42,8 @@
                 "foreground": "#6263C0",
                 "scrollbarState": "hidden",
                 "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/infiniteRun.gif",
-                "backgroundImageOpacity": 0.1
+                "backgroundImageOpacity": 0.1,
+                "startingDirectory": "C:/projetos"
             },
             {
                 // Make changes here to the cmd.exe profile.
