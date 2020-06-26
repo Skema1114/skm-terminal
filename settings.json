@@ -43,7 +43,8 @@
                 "scrollbarState": "hidden",
                 "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/infiniteRun.gif",
                 "backgroundImageOpacity": 0.1,
-                "startingDirectory": "C:/projetos"
+                "startingDirectory": "C:/projetos",
+                "launchMode": "135"
             },
             {
                 // Make changes here to the cmd.exe profile.
