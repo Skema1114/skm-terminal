@@ -4,13 +4,11 @@
     "copyOnSelect": false,
     "copyFormatting": false,
     "profiles": {
-        "defaults": {
-            "colorScheme": "DraculaAlterado"
-        },
+        "defaults": {},
         "list": [
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "EPIC PowerShell",
+                "name": "EpicPS",
                 "commandline": "powershell.exe",
                 "fontFace": "Fira Code",
                 "hidden": false,
@@ -19,27 +17,58 @@
                 //"cursorColor": "#A800AD",
                 "cursorColor": "#0062AD",
                 "cursorShape": "filledBox",
-                //"experimental.retroTerminalEffect": true,
                 //"foreground": "#A800AD"
                 "foreground": "#6263C0",
                 "scrollbarState": "hidden",
-                "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/infiniteRun.gif",
+                "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/EpicPSBackground.gif",
                 "backgroundImageOpacity": 0.1,
                 "startingDirectory": "C:/projetos",
-                "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/computer.png",
+                "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/EpicPSIcon.png",
                 "suppressApplicationTitle": true,
-                "tabTitle": "Hello my friend?!"
+                "tabTitle": "Hello my friend?!",
+                "colorScheme": "DraculaAlterado",
+                "historySize": 9001
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "Prompt de comando",
+                "name": "CMD",
                 "commandline": "cmd.exe",
-                "hidden": false
+                "fontFace": "Fira Code",
+                "fontSize": 9,
+                "padding": "10, 10, 10, 10",
+                "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/CMDIcon.png",
+                "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/CMDBackground.gif",
+                "backgroundImageOpacity": 0.1,
+                "hidden": false,
+                "snapOnInput": true,
+                "suppressApplicationTitle": true,
+                "tabTitle": "Dark in the trash?!",
+                "historySize": 9001
+            },
+            {
+                "guid": "{00000000-0000-0000-ba54-000000000002}",
+                "closeOnExit": true,
+                "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+                "cursorColor": "#FFFFFF",
+                "fontFace": "Fira Code",
+                "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/GitBashIcon.png",
+                "name": "GitBash",
+                "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/GitBashBackground.gif",
+                "backgroundImageOpacity": 0.2,
+                "fontSize": 8,
+                "padding": "10, 10, 10, 10",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                //"useAcrylic": true,
+                //"acrylicOpacity": 0.1,
+                "suppressApplicationTitle": true,
+                "tabTitle": "Don't commit at the master?!",
+                "historySize": 9001
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "name": "Azure Cloud Shell",
+                "hidden": true,
+                "name": "Azure CS",
                 "source": "Windows.Terminal.Azure"
             }
         ]
