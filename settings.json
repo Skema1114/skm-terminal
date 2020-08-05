@@ -75,11 +75,23 @@
                 "hidden": false,
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "name": "Ubuntu",
-                "tabTitle": "Don't commit at the master?!",
+                "tabTitle": "The code is on the table?!",
                 "source": "Windows.Terminal.Wsl",
                 "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/UbuntuIcon.png",
                 "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/UbuntuBackground.gif",
                 "backgroundImageOpacity": 0.2,
+                "cursorColor": "#FFFFFF",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "hidden": false,
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "name": "kaliLinux",
+                "tabTitle": "Now, say my name?!",
+                "source": "Windows.Terminal.Wsl",
+                "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/KaliLinuxIcon.png",
+                "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/KaliLinuxBackground.gif",
+                "backgroundImageOpacity": 0.1,
                 "cursorColor": "#FFFFFF",
                 "startingDirectory": "%USERPROFILE%"
             }
