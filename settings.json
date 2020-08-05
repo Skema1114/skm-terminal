@@ -70,6 +70,18 @@
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "name": "Azure CS",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "hidden": false,
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "name": "Ubuntu",
+                "tabTitle": "Don't commit at the master?!",
+                "source": "Windows.Terminal.Wsl",
+                "icon": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/UbuntuIcon.png",
+                "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/UbuntuBackground.gif",
+                "backgroundImageOpacity": 0.2,
+                "cursorColor": "#FFFFFF",
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
