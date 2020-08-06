@@ -33,7 +33,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "PowerShell",
                 "tabTitle": "PowerShell...",
-                "commandline": "powershell.exe",
+                "commandline": "powershell.exe -NoLogo",
                 "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/EpicPSBackground.gif",
                 "backgroundImageOpacity": 0.1,
                 "cursorColor": "#0062AD",
@@ -91,7 +91,8 @@
                 "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/KaliLinuxBackground.gif",
                 "backgroundImageOpacity": 0.1,
                 "cursorColor": "#FFFFFF",
-                "startingDirectory": "%USERPROFILE%"
+                "startingDirectory": "%USERPROFILE%",
+                "experimental.retroTerminalEffect": true,
             }
         ]
     },
