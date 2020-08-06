@@ -33,7 +33,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "PowerShell",
                 "tabTitle": "PowerShell...",
-                "commandline": "powershell.exe -NoLogo",
+                "commandline": "powershell.exe",
                 "backgroundImage": "C:/Users/Rafael/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/EpicPSBackground.gif",
                 "backgroundImageOpacity": 0.1,
                 "cursorColor": "#0062AD",
