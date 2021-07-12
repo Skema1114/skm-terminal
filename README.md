@@ -45,3 +45,4 @@ choco install firacode-ttf
 - https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
 - https://docs.microsoft.com/pt-br/windows/terminal/tutorials/powerline-setup (OBS: Não execute o `Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck`)
 - https://zimmergren.net/making-windows-terminal-look-awesome-with-oh-my-posh/
+- https://medium.com/analytics-vidhya/customize-your-windows-powershell-with-oh-my-posh-posh-git-93284b2749b6
