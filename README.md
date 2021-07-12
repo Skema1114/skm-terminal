@@ -12,6 +12,13 @@ Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
+Verifique se existe o arquivo $PROFILE, se não existir será criado
+```sh
+if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
+notepad $PROFILE
+
+```
+
 Importar os módulos e escolher o tema (os mesmos podem ser encontrados em `C:\Users\[nome usuário]\Documents\WindowsPowerShell\Modules\oh-my-posh\[versão]\themes`)
 ```sh
 Import-Module posh-git
