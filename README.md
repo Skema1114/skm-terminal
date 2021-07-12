@@ -1,5 +1,6 @@
 # skm-terminal
 
+## Instalação
 Modificar as politicas do powershell para executar scripts
 ```sh
 Set-ExecutionPolicy RemoteSigned
@@ -27,3 +28,8 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```sh
 choco install firacode-ttf
 ```
+
+## Referências
+- https://github.com/JanDeDobbeleer/oh-my-posh2
+- https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
+- https://docs.microsoft.com/pt-br/windows/terminal/tutorials/powerline-setup (OBS: Não execute o `Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck`)
